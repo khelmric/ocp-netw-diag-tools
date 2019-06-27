@@ -5,7 +5,10 @@ RUN yum -y install epel-release && yum clean all
 RUN yum -y install nmap-ncat && yum clean all
 RUN yum -y install iperf && yum clean all
 RUN yum -y install httpd-tools && yum clean all
+RUN yum -y install mtr && yum clean all
+RUN yum -y install iperf3 && yum clean all
 
+ADD loadtest.tar.gz /
 
 EXPOSE 8080
 
