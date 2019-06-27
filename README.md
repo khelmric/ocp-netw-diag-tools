@@ -1,6 +1,7 @@
 # OpenShift Network Diagnostic Tools
 
-## Simple network diagnostic tools
+## Included tools
+#### Simple network diagnostic tools
 * Ping (`ping`)
 * Tracepath (`tracepath`)
 * My traceroute (`mtr`)
@@ -17,7 +18,7 @@ uses.
     + iPerf is a widely used tool for network performance measurement and tuning. It is significant as a cross-platform tool that can produce standardized performance measurements for any network. Iperf has client and server functionality, and can create data streams to measure the throughput between the two ends in one or both directions. Typical Iperf output contains a time-stamped report of the amount of data transferred and the throughput measured. 
     + iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters.
 
-## Network loadtest tools
+#### Network loadtest tools
 * ApacheBench (`ab`)
     + AB is a single-threaded command line computer program for measuring the performance of HTTP web servers. It is generic enough to test any web server. 
 * Multiple-host HTTP(s) Benchmarking tool (`mb`)
