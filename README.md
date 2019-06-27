@@ -23,3 +23,8 @@ uses.
 * Multiple-host HTTP(s) Benchmarking tool (`mb`)
     + The mb client aims to be a clean, simple and scalable tool to generate significant HTTP(s) load against multiple targets from a single host. It also has a per-target reporting functionality. It combines a multithreaded design with scalable event notification systems.
     + source: https://github.com/jmencak/mb/
+
+## Deployment on OpenShift
+```
+oc new-app https://github.com/khelmric/ocp-netw-diag-tools.git [--build-env HTTPS_PROXY=httpd://<PROXY_USER>:<PROXY_PASSWORD>@<PROXY_IP>:<PROXY_PORT> --build-env HTTP_PROXY=http://<PROXY_USER>:<PROXY_PASSWORD>@<PROXY_IP>:<PROXY_PORT> -e HTTPS_PROXY=httpd://<PROXY_USER>:<PROXY_PASSWORD>@<PROXY_IP>:<PROXY_PORT> -e HTTP_PROXY=http://<PROXY_USER>:<PROXY_PASSWORD>@<PROXY_IP>:<PROXY_PORT>]
+```
