@@ -9,10 +9,10 @@ $ oc rsh diag-tools-7-66p72
 
 sh-4.2$ ping -c 4 httpd-example-testroute.example.net
 PING httpd-example-testroute.example.net (160.48.88.115) 56(84) bytes of data.
-64 bytes from dispatch-cnap-00-mp-staging2.bmwgroup.net (160.48.88.115): icmp_seq=1 ttl=252 time=0.747 ms
-64 bytes from dispatch-cnap-00-mp-staging2.bmwgroup.net (160.48.88.115): icmp_seq=2 ttl=252 time=1.07 ms
-64 bytes from dispatch-cnap-00-mp-staging2.bmwgroup.net (160.48.88.115): icmp_seq=3 ttl=252 time=1.45 ms
-64 bytes from dispatch-cnap-00-mp-staging2.bmwgroup.net (160.48.88.115): icmp_seq=4 ttl=252 time=1.29 ms
+64 bytes from dispatch-example.net (160.48.88.115): icmp_seq=1 ttl=252 time=0.747 ms
+64 bytes from dispatch-example.net (160.48.88.115): icmp_seq=2 ttl=252 time=1.07 ms
+64 bytes from dispatch-example.net (160.48.88.115): icmp_seq=3 ttl=252 time=1.45 ms
+64 bytes from dispatch-example.net (160.48.88.115): icmp_seq=4 ttl=252 time=1.29 ms
 
 --- httpd-example-testroute.example.net ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
